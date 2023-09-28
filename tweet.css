@@ -1,0 +1,130 @@
+.layout__main{
+    flex: 0.5;
+    border-right: 1px solid var(--twitterbackground);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+.layout__header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var;
+    padding: 15px 20px;
+}
+.layout__header h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+.layout__main::-webkit-scrollbar{
+    display: none;
+}
+.layout__main{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.tweetbox__input img{
+    border-radius: 50%;
+    height: 40px;
+}
+.tweetbox{
+    padding-bottom:10px ;
+    border-bottom: 8px solid var;
+    padding-right: 10px;
+}
+.tweetbox form{
+    display: flex;
+    flex-direction: column;
+}
+.tweetbox__input{
+    display: flex;
+    padding: 20px;
+}
+.tweetbox__input input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.tweetbox__tweetbutton{
+    background-color:  #1b94e0;
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+}
+.tweet{
+    display: flex;
+    border-bottom: 1px solid #e6ecf0;
+    margin-bottom: 2px;
+    padding: 10px 15px;
+}
+
+.tweet:hover{
+    background: rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+}
+.btn{
+    color: #1b94e0;
+    text-decoration: none;
+}
+.btn:hover{
+    text-decoration: underline;
+}
+.tweet__authors-logo{
+    width: 49px;
+    height: 49px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.tweet__header{
+    display: flex;
+}
+.tweet__authors-name{
+ font-size: 15px;
+ font-weight: 700;
+ color: #14171c;
+ margin-right: 5px;
+}
+.tweet__authors-slug{
+ color: #5b7083;
+ font-size: 15px;
+}
+.tweet__publish-time{
+ margin-left: 5px;
+ color: #657786;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.post__badge{
+   font-size: 14px !important;
+   filter: invert(52%) sepia(86%) saturate(2756%) hue-rotate(169deg) brightness(103%) contrast(104%);
+   margin-right: 5px;
+}
+.tweet__image{
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.tweetbox__inputt{
+    display: flex;
+    padding: 20px;
+    border: 0.003 solid;
+    border-radius: 15px;
+}
+.tweetbox__inputt input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}

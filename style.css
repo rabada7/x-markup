@@ -1,0 +1,32 @@
+:root{
+    --background: #000;
+    --brandBackground: #1d9bf020;
+    --brandColor:#d9d9d9;
+    --itemBackground: #d9d9d920;
+    --colorPrimary:#d9d9d9;
+    --colorSecondary:#6e767d;
+    --colorwhite:#fff;
+    --tweetbtnbg:#1d9bf0;
+}
+.layout {
+ display: grid;
+ grid-template-columns: 275px auto 350px;
+ margin: 0 auto;
+ max-width: 1200px;
+}
+.layout__right-sidebar {
+    position: fixed;
+    width: 350px;
+    padding: 10px;
+}
+.svggg{
+    padding-left: 300px;
+    padding-bottom: 10px;
+    filter: invert(52%) sepia(86%) saturate(2756%) hue-rotate(169deg) brightness(103%) contrast(104%);
+   margin-right: 5px;
+}
+.svgg{
+    display: flex;
+    justify-self: end;
+    filter: invert(52%) sepia(86%) saturate(2756%) hue-rotate(169deg) brightness(103%) contrast(104%);
+}
